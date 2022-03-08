@@ -1,6 +1,6 @@
 .comic-card {
     width: 180px;
-    margin: 50px 15px;
+    margin: 50px 30px;
     .card-img {
         height: 180px;
         width: 100%;
@@ -12,8 +12,10 @@
         }
     }
     .title {
-        color: rgb(138, 202, 43);
+        color: white;
         margin-top: 20px;
         text-transform: uppercase;
+        text-align: center;
+        font-weight: 600;
     }
 }

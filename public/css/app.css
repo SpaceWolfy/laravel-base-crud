@@ -67,7 +67,7 @@
 
 .comic-card {
   width: 180px;
-  margin: 50px 15px;
+  margin: 50px 30px;
 }
 
 .comic-card .card-img {
@@ -85,14 +85,16 @@
 }
 
 .comic-card .title {
-  color: #8aca2b;
+  color: white;
   margin-top: 20px;
   text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
 }
 
 .comic-cont {
   margin: 100px auto;
-  width: 1250px;
+  width: 1000px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
