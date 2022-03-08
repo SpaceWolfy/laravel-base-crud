@@ -67,7 +67,7 @@
 
 .comic-card {
   width: 180px;
-  margin: 50px 30px;
+  margin: 0px 30px 50px 30px;
 }
 
 .comic-card .card-img {
@@ -93,11 +93,49 @@
 }
 
 .comic-cont {
-  margin: 100px auto;
+  margin: 130px auto;
   width: 1000px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.info-container {
+  margin: 130px 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.info-container .details {
+  color: white;
+}
+
+.info-container .details h1 {
+  color: #8aca2b;
+  margin-bottom: 30px;
+}
+
+.info-container .details div {
+  font-size: 20px;
+  margin-bottom: 30px;
+  line-height: 30px;
+  max-width: 700px;
+}
+
+.info-container .details div strong {
+  color: #8aca2b;
+  margin-right: 10px;
+}
+
+.info-container .jumbo-thumb {
+  width: 300px;
+  border: 4px solid #8aca2b;
+}
+
+.info-container .jumbo-thumb img {
+  width: 100%;
+  border: 2px solid #010409;
 }
 
 .page-container {
