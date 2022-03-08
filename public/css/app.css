@@ -138,6 +138,78 @@
   border: 2px solid #010409;
 }
 
+.form-container {
+  margin: 75px 0;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-container h1 {
+  color: #8aca2b;
+  margin-bottom: 20px;
+}
+
+.form-container form {
+  line-height: 22px;
+}
+
+.form-container form div label {
+  display: block;
+}
+
+.form-container form div label strong {
+  color: #8aca2b;
+}
+
+.form-container form div input,
+.form-container form div textarea {
+  margin-bottom: 15px;
+  border-radius: 5px;
+  background-color: #161b22;
+  outline: none;
+  border: 2px solid #8aca2b;
+  padding: 10px 10px;
+  color: white;
+}
+
+.form-container form div input {
+  width: 400px;
+  height: 22px;
+}
+
+.form-container form div textarea:focus,
+.form-container form div input:focus {
+  color: white;
+}
+
+.form-container form .btns button {
+  background-color: transparent;
+  height: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  border: 2px solid #8aca2b;
+  color: white;
+  padding: 0 30px;
+}
+
+.form-container form .btns button:hover {
+  background-color: #8aca2b;
+  color: #161b22;
+}
+
+.form-container form .btns .back {
+  margin-left: 20px;
+  color: #8aca2b;
+  border-color: white;
+}
+
+.form-container form .btns .back:hover {
+  background-color: crimson;
+  color: white;
+}
+
 .page-container {
   height: 100vh;
   text-align: center;
