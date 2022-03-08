@@ -1,0 +1,19 @@
+.comic-card {
+    width: 180px;
+    margin: 50px 15px;
+    .card-img {
+        height: 180px;
+        width: 100%;
+        img {
+            height: 100%;
+            width: 100%;
+            object-position: top;
+            object-fit: cover;
+        }
+    }
+    .title {
+        color: rgb(138, 202, 43);
+        margin-top: 20px;
+        text-transform: uppercase;
+    }
+}
