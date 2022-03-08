@@ -1,0 +1,38 @@
+.navigation-bar {
+    background-color: #161b22;
+    height: 62px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    ul {
+        font-size: 15px;
+        font-weight: 600;
+        li {
+            padding: 20px;
+            margin: 0 20px;
+            border-bottom: 4px solid transparent;
+            display: flex;
+
+            &:hover {
+                border-bottom: 4px solid rgb(138, 202, 43);
+            }
+            &:hover a {
+                color: rgb(138, 202, 43);
+            }
+            a {
+                text-decoration: none;
+                color: white;
+            }
+        }
+
+        .active {
+            border-bottom: 4px solid rgb(138, 202, 43);
+
+            a {
+                color: rgb(138, 202, 43);
+            }
+        }
+    }
+}
