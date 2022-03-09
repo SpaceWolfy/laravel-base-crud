@@ -34,4 +34,19 @@
             border: 2px solid #010409;
         }
     }
+
+    button {
+        background-color: transparent;
+        height: 30px;
+        font-size: 16px;
+        font-weight: 600;
+        border: 2px solid white;
+        color: rgb(138, 202, 43);
+        padding: 0 30px;
+
+        &:hover {
+            background-color: #161b22;
+            color: white;
+        }
+    }
 }
