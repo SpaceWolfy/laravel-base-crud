@@ -137,7 +137,11 @@
   border: 2px solid #010409;
 }
 
-.info-container button {
+.info-container .btn-area {
+  display: flex;
+}
+
+.info-container .btn-area button {
   background-color: transparent;
   height: 30px;
   font-size: 16px;
@@ -147,9 +151,20 @@
   padding: 0 30px;
 }
 
-.info-container button:hover {
+.info-container .btn-area button:hover {
   background-color: #161b22;
   color: white;
+}
+
+.info-container .btn-area .del {
+  margin-left: 20px;
+  color: crimson;
+  border-color: #8b0c0c;
+}
+
+.info-container .btn-area .del:hover {
+  color: #8b0c0c;
+  background-color: transparent;
 }
 
 .form-container {

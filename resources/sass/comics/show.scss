@@ -35,18 +35,33 @@
         }
     }
 
-    button {
-        background-color: transparent;
-        height: 30px;
-        font-size: 16px;
-        font-weight: 600;
-        border: 2px solid white;
-        color: rgb(138, 202, 43);
-        padding: 0 30px;
+    .btn-area {
+        display: flex;
 
-        &:hover {
-            background-color: #161b22;
-            color: white;
+        button {
+            background-color: transparent;
+            height: 30px;
+            font-size: 16px;
+            font-weight: 600;
+            border: 2px solid white;
+            color: rgb(138, 202, 43);
+            padding: 0 30px;
+
+            &:hover {
+                background-color: #161b22;
+                color: white;
+            }
+        }
+
+        .del {
+            margin-left: 20px;
+            color: crimson;
+            border-color: rgb(139, 12, 12);
+
+            &:hover {
+                color: rgb(139, 12, 12);
+                background-color: transparent;
+            }
         }
     }
 }
