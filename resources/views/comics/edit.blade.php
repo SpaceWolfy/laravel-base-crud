@@ -46,7 +46,7 @@
     </div>
 
     <div class="btns">
-      <button class="button" type="submit">Aggiungi</button>
+      <button class="button" type="submit">Modifica il fumetto</button>
       <button class="button back" type="reset">Reset</button>
     </div>
   </form>
