@@ -16,3 +16,5 @@ Bonus: creare il seeder per la tabella comics utilizzando il file in allegato.
 -Completare le operazioni CRUD. Aggiungere edit, update e destroy.
 
 Bonus: tramite javascript, quando l’utente clicca sul pulsante “delete”, chiedere conferma della cancellazione, prima di eliminare l’elemento.
+
+<!-- Exercise Completed -->
