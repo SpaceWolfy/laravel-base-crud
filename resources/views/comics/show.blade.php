@@ -10,6 +10,10 @@
         <div><strong>Serie :</strong> {{ $comic->series }}</div>
         <div><strong>Tipologia :</strong> {{ $comic->type }}</div>
         <div><strong>Descrizione :</strong> {{ $comic->description }}</div>
+
+        <a href="{{ route('comics.edit', $comic->id) }}">
+          <button class="button" type="submit">Modifica le informazioni</button>
+        </a>
     </div>
 
     <div class="jumbo-thumb">
