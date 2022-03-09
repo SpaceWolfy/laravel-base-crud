@@ -67,7 +67,7 @@
 
 .comic-card {
   width: 180px;
-  margin: 0px 30px 50px 30px;
+  margin: 0px 35px 50px 35px;
 }
 
 .comic-card .card-img {
@@ -96,7 +96,6 @@
   margin: 130px auto;
   width: 1000px;
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -138,8 +137,23 @@
   border: 2px solid #010409;
 }
 
+.info-container button {
+  background-color: transparent;
+  height: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  border: 2px solid white;
+  color: #8aca2b;
+  padding: 0 30px;
+}
+
+.info-container button:hover {
+  background-color: #161b22;
+  color: white;
+}
+
 .form-container {
-  margin: 75px 0;
+  margin: 75px 0 150px 0;
   color: white;
   display: flex;
   flex-direction: column;
@@ -172,6 +186,8 @@
   border: 2px solid #8aca2b;
   padding: 10px 10px;
   color: white;
+  line-height: 22px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .form-container form div input {
@@ -207,6 +223,10 @@
 
 .form-container form .btns .back:hover {
   background-color: crimson;
+  color: white;
+}
+
+.white {
   color: white;
 }
 
