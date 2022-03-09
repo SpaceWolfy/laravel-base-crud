@@ -1,5 +1,5 @@
 .form-container {
-    margin: 75px 0;
+    margin: 75px 0 150px 0;
     color: white;
     display: flex;
     flex-direction: column;
@@ -30,6 +30,8 @@
                 border: 2px solid rgb(138, 202, 43);
                 padding: 10px 10px;
                 color: white;
+                line-height: 22px;
+                font-family: Arial, Helvetica, sans-serif;
             }
 
             input {
