@@ -43,6 +43,10 @@
             input:focus {
                 color: white;
             }
+
+            .is-invalid {
+                border-color: crimson;
+            }
         }
 
         .btns {

@@ -7,6 +7,17 @@ use Illuminate\Http\Request;
 
 class ComicController extends Controller
 {
+
+    protected $paramsRequest = [
+        'title' => 'required',
+        'thumb' => 'required|url',
+        'description' => 'required',
+        'price' => 'required',
+        'series' => 'required',
+        'sale_date' => 'required|date',
+        'type' => 'required'
+    ];
+
     /**
      * Display a listing of the resource.
      *
@@ -36,7 +47,7 @@ class ComicController extends Controller
      */
     public function store(Request $request)
     {
-        $data = $request->all();
+        $data = $request->validate($this->paramsRequest);
 
         $newComic = new Comic();
 
@@ -78,7 +89,7 @@ class ComicController extends Controller
      */
     public function update(Request $request, Comic $comic)
     {
-        $data = $request->all();
+        $data = $request->validate($this->paramsRequest);
         $comic->update($data);
 
         return redirect()->route('comics.show', $comic);

@@ -92,6 +92,28 @@
   font-weight: 600;
 }
 
+.alert {
+  background-color: #161b22;
+  border: 2px solid #8aca2b;
+  margin: 30px 0;
+}
+
+.alert h3 {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.alert strong {
+  color: #8aca2b;
+}
+
+.alert ul {
+  margin: 20px 20px 20px 10px;
+  display: block;
+  font-size: 18px;
+  line-height: 30px;
+}
+
 .comic-cont {
   margin: 130px auto;
   width: 1000px;
@@ -213,6 +235,10 @@
 .form-container form div textarea:focus,
 .form-container form div input:focus {
   color: white;
+}
+
+.form-container form div .is-invalid {
+  border-color: crimson;
 }
 
 .form-container form .btns button {
